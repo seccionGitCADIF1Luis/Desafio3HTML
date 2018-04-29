@@ -1,0 +1,39 @@
+body {
+	background: lightblue;
+	color: black;
+  font-family: 'Montserrat', sans-serif;
+}
+
+header, h1, h2, footer, #descargas {
+    text-align: center;
+}
+
+h1 {
+    text-decoration: underline;
+}
+
+.articulo {
+    float: left;
+    width: 48%;
+    padding: 1%;
+    box-sizing: border-box;
+}
+
+#publicidad {
+    clear: both;
+}
+
+#redes-sociales span {
+	display: inline-block;
+	margin: 0 16px;
+}
+
+#redes-sociales span a, #menu span a {
+	color: blue;
+	text-decoration: none;
+}
+
+#redes-sociales span a:hover, #menu span a:hover {
+	color: darkblue;
+	text-decoration: underline;
+}
